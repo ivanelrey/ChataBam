@@ -1,0 +1,87 @@
+html,body{
+    margin:0px;
+    padding:0px;
+    
+}
+#wrapper>#logout>#logoutbutton
+{   
+    border: 0;
+    background: #33b5e5;
+    cursor: pointer;    
+    font-size: 15px;    
+    border-radius: 3px;
+    position: relative;  
+    color: #ffffff;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    width: 25%;
+    height:4%;       
+    margin-top:0%;
+    margin-left:55%; 
+}
+#wrapper>#logout>#logoutbutton:hover
+{
+    
+}
+#wrapper>#sendmessage>#message
+{     
+  
+    resize: none;
+    width: 60%;
+    height:4.5%;
+    margin-left: 20%; 
+}
+#wrapper>#sendmessage>#sendmessagebutton
+{     
+    border: 0;
+    background: #33b5e5;
+    cursor: pointer;    
+    font-size: 18px;    
+    border-radius: 3px;
+    position: relative;  
+    color: #ffffff;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    width: 50%;
+    height:5%;
+    margin-left: 25%;    
+}
+#wrapper>#sendmessage>#sendmessagebutton:hover
+{
+      background: #178ab4;
+}
+#wrapper>#userinfo
+{    
+    margin-top: 0%;
+    margin-left: 40%;    
+}
+#wrapper>#messages
+{
+    width:60%;    
+    height:70%;    
+    padding: 0px;
+    margin-left: 20%;
+    border:2px solid #CCC;
+    overflow: auto;
+   
+}
+#wrapper>#feedback
+{
+    margin-left: 20%;
+    display: none;
+}
+#wrapper
+{    
+    box-sizing: border-box;
+    width:60%;
+    height:99%;    
+    padding: 0px;    
+    //margin-top: 20%; /*set to a negative number 1/2 of your height*/
+    margin-left: 20%; /*set to a negative number 1/2 of your width*/
+    border:2px solid blueviolet;
+    overflow: auto;
+}
+#wrapper>#userinfo
+{
+    color: #33b5e5;
+}
