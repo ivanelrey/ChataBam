@@ -2,7 +2,6 @@
 require 'DBconnection.php';
 $username = $_POST['username'];
 session_start();
-
 if(isset($username))
 {
     $username = trim($username);

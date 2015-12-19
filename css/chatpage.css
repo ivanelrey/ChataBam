@@ -1,87 +1,79 @@
-html,body{
-    margin:0px;
-    padding:0px;
-    
+*
+{
+   font-family: 'Open Sans'; 
+   box-sizing: border-box;
 }
-#wrapper>#logout>#logoutbutton
+#container
 {   
-    border: 0;
-    background: #33b5e5;
-    cursor: pointer;    
-    font-size: 15px;    
-    border-radius: 3px;
-    position: relative;  
-    color: #ffffff;
-    -webkit-transition: 0.3s ease;
-    transition: 0.3s ease;
-    width: 25%;
-    height:4%;       
-    margin-top:0%;
-    margin-left:55%; 
-}
-#wrapper>#logout>#logoutbutton:hover
-{
+    box-sizing: border-box;
+    width: 50%;
+    height: 99%;
+    border: 5px solid #ddd;
     
 }
-#wrapper>#sendmessage>#message
-{     
-  
-    resize: none;
-    width: 60%;
-    height:4.5%;
-    margin-left: 20%; 
-}
-#wrapper>#sendmessage>#sendmessagebutton
-{     
-    border: 0;
-    background: #33b5e5;
-    cursor: pointer;    
-    font-size: 18px;    
-    border-radius: 3px;
-    position: relative;  
-    color: #ffffff;
-    -webkit-transition: 0.3s ease;
-    transition: 0.3s ease;
-    width: 50%;
-    height:5%;
-    margin-left: 25%;    
-}
-#wrapper>#sendmessage>#sendmessagebutton:hover
+#container>#chatHeader
 {
-      background: #178ab4;
+    width: 100%;
+    height: 15%;
+    background: white;
+    padding: 5px;
+    border-bottom: 5px solid #ddd;
 }
-#wrapper>#userinfo
+#container>#chatHeader>#userinfo
+{
+    color: black;
+    font-size: x-large;
+    float: left;
+    height: 7%;
+    width: 70%;
+}
+#container>#chatHeader>#logoutbutton form input[type='submit']
 {    
-    margin-top: 0%;
-    margin-left: 40%;    
+    width: 20%;
+    height: 80%;
+    float: right;
 }
-#wrapper>#messages
-{
-    width:60%;    
-    height:70%;    
-    padding: 0px;
-    margin-left: 20%;
-    border:2px solid #CCC;
-    overflow: auto;
-   
-}
-#wrapper>#feedback
-{
-    margin-left: 20%;
-    display: none;
-}
-#wrapper
+#container>#chatHeader>#logoutbutton
 {    
-    box-sizing: border-box;
-    width:60%;
-    height:99%;    
-    padding: 0px;    
-    //margin-top: 20%; /*set to a negative number 1/2 of your height*/
-    margin-left: 20%; /*set to a negative number 1/2 of your width*/
-    border:2px solid blueviolet;
+    padding-top: 5px;
+}
+#container>#chatBottom form input[type='text']
+{
+    resize: none;   
+    padding: 3px;     
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    height: 5%;
+    width: 75%;
+    margin: 5px;    
+    float: left;
+}
+#container>#chatBottom form input[type='submit']
+{
+    padding: 6px;
+    background: white;
+    border: 1px solid #ddd;
+    cursor: pointer; 
+    width: 20%;
+    height: 5%;
+    margin: 5px; 
+    float: left;
+}
+#container>#chatAndUserBox>#messages
+{
+    float: left;
+    width: 68%;
+    height: 78%;
+    border-right: 5px solid #ddd;
+    border-bottom: 5px solid #ddd;
     overflow: auto;
 }
-#wrapper>#userinfo
+#container>#chatAndUserBox>#onlineusers
 {
-    color: #33b5e5;
+    float: right;
+    width: 28%;
+    height: 78%;
+    border-left: 5px solid #ddd;
+    border-bottom: 5px solid #ddd;
+    overflow: auto;    
 }

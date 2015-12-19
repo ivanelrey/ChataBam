@@ -1,7 +1,7 @@
 <?php
-require 'sessionUnset.php';
-unsetSession();
+require 'checkIfUserAlreadyLoggedIn.php';
 ?>
+
 <html>
     <head>
         <title></title>
@@ -18,5 +18,5 @@ unsetSession();
             This text is displayed if your browser does not support HTML5 Canvas.
         </canvas>
         
-    </body>     
+    </body> 
 </html>
