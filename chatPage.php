@@ -35,7 +35,7 @@ if(!isset($_SESSION['username']))
                 </div>                
                 <div id="chatBottom">
                     <form id="sendmessage" action="" method="post">                            
-                        <input id="message" type="text" placeholder="Write message">                             
+                        <textarea id="message" type="text" placeholder="Write message"></textarea>                            
                         <input id="sendmessagebutton" type="submit" value="Send" onkeypress="addInputSubmitEvent()">
                     </form> 
                 </div>                  

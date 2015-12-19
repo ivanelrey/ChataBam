@@ -37,7 +37,7 @@
 {    
     padding-top: 5px;
 }
-#container>#chatBottom form input[type='text']
+#container>#chatBottom form textarea[type='text']
 {
     resize: none;   
     padding: 3px;     
