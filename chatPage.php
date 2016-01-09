@@ -6,11 +6,30 @@ if(!isset($_SESSION['username']))
 
 <html>
     <head>
-        <title></title>   
+        
+<title>ChatBam</title>  
         
         <link type="text/css" rel="stylesheet" href="css/chatpage.css">       
     </head>
-    <body>  
+    
+<body>
+<div id="quote1">
+<pre>
+Everybody
+  Needs
+Somebody
+Sometimes
+</pre>
+</div>
+<div id="quote2">
+<pre>
+   I Don't
+Want To Be
+    Alone
+ 
+</pre>
+</div>
+  
             <div id="container">
                 <div id="chatHeader">
                     <div id="userinfo">
@@ -36,15 +55,24 @@ if(!isset($_SESSION['username']))
                 <div id="chatBottom">
                     <form id="sendmessage" action="" method="post">                            
                         <textarea id="message" type="text" placeholder="Write message"></textarea>                            
-                        <input id="sendmessagebutton" type="submit" value="Send" onkeypress="addInputSubmitEvent()">
-                    </form> 
+                       
+ <input id="sendmessagebutton" type="submit" value="Send" onkeypress="addInputSubmitEvent()">
+                   
+ </form> 
                 </div>                  
             </div>             
-    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+ 
+   <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="js/refreshChat.js"></script>
-    <script type="text/javascript" src="js/refreshUsers.js"></script>
+  
+  <script type="text/javascript" src="js/refreshUsers.js"></script>
     <script type="text/javascript" src="js/pmOnClick.js"></script>
-    <script type="text/javascript" src="js/sendMessageToDatabase.js"></script>
+  
+  <script type="text/javascript" src="js/sendMessageToDatabase.js"></script>
     <script type="text/javascript" src="js/onEnterSubmitForm.js"></script>
-    </body>
+ 
+   <img id="girl" src="images/girl.jpg"> 
+   <img id="boy" src="images/boy.jpg"> 
+</body>
+
 </html>
